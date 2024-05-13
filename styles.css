@@ -1,0 +1,178 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+.navbar,
+.introduction,
+.copyright {
+    background-color: #1F2937;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    height: 60px;
+    padding: 0 16px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 5px;
+}
+
+.navbar .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.introduction {
+    padding: 30px;
+}
+
+.introduction .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introduction .container .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.introduction h2 {
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+
+.introduction p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    background-color: #3882F6;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.catgories {
+    padding: 20px 0;
+
+}
+
+.catgories .container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.catgories .total {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.catgories .catgory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.memes {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+    font-style: italic;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.memes .author {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.register .container {
+    padding: 70px 40px;
+}
+
+.register .container .content {
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    color: #F9FAF8;
+}
+
+.register .container .signup {
+    border: 1px solid white;
+}
+
+.register .container .left h3 {
+
+    font-size: 24px;
+}
+
+.register .container .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright {
+    padding: 50px;
+    color: #E5E7EB;
+    text-align: center;
+}
